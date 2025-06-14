@@ -1,4 +1,5 @@
 
+
 Produto: str = "remedio"
 Produtos_1: str = "leito"
 Produtos_2: str = "internação"
@@ -16,3 +17,19 @@ Produtos.append(Produtos_4)
 Produtos.append(Produtos_5)
 
 print(Produtos)
+
+
+
+Lista_de_Livros_usando_dict = {
+    "livro_01": {
+        "Titulo": "Game of Thrones",
+        "Autor": "Zack",
+        "Ano": "2005"
+    },
+    "livro_02": {
+        "Titulo": "Game of Thrones 2",
+        "Autor": "Zack",
+        "Ano": "2007"
+    }
+}
+      

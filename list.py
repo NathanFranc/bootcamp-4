@@ -10,3 +10,4 @@ produtos.append(produto_3)
 produtos.pop()
 
 print(produtos)
+
