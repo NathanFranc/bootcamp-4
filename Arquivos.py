@@ -1,14 +1,16 @@
 import csv
 
+# Caminho para o arquivo CSV
+caminho_do_arquivo: str = 'exemplo.csv'
 
-caminho_do_arquivo: str = "exemplo.csv"
-
+# Lista para armazenar os dados lidos
 arquivo_csv: list = []
 
-
-with open(file=caminho_do_arquivo,mode="r", encoding='utf-8') as arquivos:
-  leitor_csv = csv.DictReader(arquivos)
-  
-  for linha in leitor_csv:
-      arquivo_csv.append(linha)
-      print(arquivo_csv)
+with open(file=caminho_do_arquivo,mode="r", encoding='utf-8') as arquivos: 
+    leitor_csv = csv.DictReader(arquivos)
+    
+    for linha in leitor_csv:
+       arquivo_csv.append(linha)
+       
+    print(arquivo_csv)
+    

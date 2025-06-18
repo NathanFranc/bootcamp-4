@@ -1,4 +1,4 @@
-# criando minha primeira lista
+# criando minha primeira ecommerce
 
 Produto: str = "tenis"
 Produtos_1: str = "sapato"
